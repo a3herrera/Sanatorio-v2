@@ -52,6 +52,7 @@ gradle-app.setting
 .settings/
 .classpath
 .project
+bin/
 
 # NetBeans specific
 nbproject/private/
