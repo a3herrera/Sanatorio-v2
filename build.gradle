@@ -14,11 +14,10 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply plugin: 'netbeans'
 apply plugin: 'org.springframework.boot'
 
-group: 'app.assignments'
-
+group = 'app.assignments'
+version = '0.1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
