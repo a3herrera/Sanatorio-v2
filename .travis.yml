@@ -1,7 +1,12 @@
 language: java
 
-gradle assemble
-gradle check
-
 jdk:
  - oraclejdk8
+
+os:
+ - linux
+ 
+branches:
+ only:
+  - master
+  
